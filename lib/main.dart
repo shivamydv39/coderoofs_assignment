@@ -38,13 +38,13 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  int _selectedIndex = 2; // Default to Blender Mixer (third icon)
+  int _selectedIndex = 2; // Default 
   final List<Widget> _screens = [
     Container(),
-    const BlindMixerScreen(), // Placeholder for second screen (if needed)
+    const BlindMixerScreen(), 
     const MixerScreen(),
-    const BlindMixerScreen(), // Placeholder for fourth screen (if needed)
-    const EditProfileScreen(), // Placeholder for fifth screen (if needed)
+    const BlindMixerScreen(), 
+    const EditProfileScreen(), 
   ];
 
   void _onItemTapped(int index) {
